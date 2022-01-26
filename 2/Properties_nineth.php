@@ -5,7 +5,7 @@ class Observer
 	private $observers=[];
 	public function attach(Observer $observer)
 	{
-      $this->observers[]=$observer;
+      $this->$observers[]=$observer;
 	}
 	public function notify()
 	{
